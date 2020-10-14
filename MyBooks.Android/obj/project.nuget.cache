@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2MEzmtG+VQes6l8bj/tOshxiW8CzFDpokzqXHqnqNrTqx482i55s4eaINi+zIyD4cpv+2RmIlhe4dtaH75y4rA==",
+  "dgSpecHash": "os5OkT09a5rIfu+RPNZjHplCrAHQzhcPGE2CUB0d765dKliUHW4Sei/W8sbsEH4Op7e+r4abbbXJAGb8aqZANg==",
   "success": true,
   "projectFilePath": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks.Android/MyBooks.Android.csproj",
   "expectedPackageFiles": [
+    "/Users/leticiamalipense/.nuget/packages/behaviors.forms/1.4.0/behaviors.forms.1.4.0.nupkg.sha512",
     "/Users/leticiamalipense/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
     "/Users/leticiamalipense/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "/Users/leticiamalipense/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",

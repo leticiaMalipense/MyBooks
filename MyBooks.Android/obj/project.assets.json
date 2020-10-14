@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "Behaviors.Forms/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/netstandard1.0/Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Behaviors.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -881,6 +894,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Behaviors.Forms": "1.4.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
           "sqlite-net-pcl": "1.7.335"
@@ -895,6 +909,19 @@
     }
   },
   "libraries": {
+    "Behaviors.Forms/1.4.0": {
+      "sha512": "z0D3U3LgiezsF+uKqG9KJdBTPpfjCZ+gG+ctRHLxC98WCVumBmPhCvBKwFVafMR0Ez87x617BQsgzK5ARu853g==",
+      "type": "package",
+      "path": "behaviors.forms/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "behaviors.forms.1.4.0.nupkg.sha512",
+        "behaviors.forms.nuspec",
+        "lib/netstandard1.0/Behaviors.dll",
+        "lib/netstandard1.0/Behaviors.pdb"
+      ]
+    },
     "sqlite-net-pcl/1.7.335": {
       "sha512": "0A9YNPbp66aB+Sitxmh9lq1KDtD4+EBPfdtnYN8WenvQqh5dNgMxUV7kaEG6EXYTi4zBxcsDKpyYJzbViWJXtw==",
       "type": "package",

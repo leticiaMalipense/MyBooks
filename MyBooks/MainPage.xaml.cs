@@ -28,7 +28,7 @@ namespace MyBooks
         {
             if (args != null)
             {
-                Navigation.PushAsync(new BookCreated()
+                Navigation.PushAsync(new BookCreated(true)
                 {
                     BindingContext = args.SelectedItem as Book
                 });
@@ -39,7 +39,7 @@ namespace MyBooks
         {
             if (args != null)
             {
-                Navigation.PushAsync(new BookCreated()
+                Navigation.PushAsync(new BookCreated(false)
                 {
                     BindingContext = new Book()
                 });
@@ -52,7 +52,8 @@ namespace MyBooks
 
         void Toggled(System.Object sender, Xamarin.Forms.ToggledEventArgs args)
         {
-         
+            Console.WriteLine(sender);
+            Console.WriteLine(args);
         }
     }
 }

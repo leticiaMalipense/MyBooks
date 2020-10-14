@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OIhA8MCTXmHUZ5IYH54hohH0WDHdTuzIEBPMX07yjQIbfW/pkQ6Uurn6x8XY2a45Ok1MxaJ9U795G7orehbXnw==",
+  "dgSpecHash": "g8sXoI6R2muQOh4TyGX9TEQxH4Exkcm+jJjEfmVdsYiSvZDWjrcVovIWDxgZpKzTqJk6AzmBRm6N1ijOtUSdWw==",
   "success": true,
   "projectFilePath": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/MyBooks.csproj",
   "expectedPackageFiles": [
+    "/Users/leticiamalipense/.nuget/packages/behaviors.forms/1.4.0/behaviors.forms.1.4.0.nupkg.sha512",
     "/Users/leticiamalipense/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/leticiamalipense/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/leticiamalipense/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",

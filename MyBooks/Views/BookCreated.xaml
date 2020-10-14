@@ -3,7 +3,7 @@
              x:Class="MyBooks.Views.BookCreated">
     <ContentPage.Content>
         <StackLayout Padding="10,20,10,10" Orientation="Vertical">
-            <Button Text="Excluir" FontSize="24" TextColor="White" BackgroundColor="#FF7F50" Clicked="OnDeleteBook" x:Name="btnExcluir"/>
+            <ImageButton HorizontalOptions="End" Source="delete.png" HeightRequest="50" WidthRequest="50" BackgroundColor="#FF7F50" Clicked="OnDeleteBook" x:Name="btnExcluir"/>
 
             <Label Text="Título" FontSize="Small"/>
             <Entry Text="{Binding title}"/>

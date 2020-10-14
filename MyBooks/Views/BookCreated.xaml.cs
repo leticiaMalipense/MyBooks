@@ -8,9 +8,13 @@ namespace MyBooks.Views
     public partial class BookCreated : ContentPage
     {
 
-        public BookCreated()
+        public BookCreated(Boolean hasDelete)
         {
             InitializeComponent();
+
+            if (!hasDelete) {
+                btnExcluir.IsVisible = false;
+            }
         }
 
         void OnSaveBook(System.Object sender, System.EventArgs e)
