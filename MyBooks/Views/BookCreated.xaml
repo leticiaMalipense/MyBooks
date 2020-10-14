@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyBooks.Views.BookCreated">
+    <ContentPage.Content>
+        <StackLayout Padding="10,20,10,10" Orientation="Vertical">
+            <Button Text="Excluir" FontSize="24" TextColor="White" BackgroundColor="#FF7F50" Clicked="OnDeleteBook" x:Name="btnExcluir"/>
+
+            <Label Text="Título" FontSize="Small"/>
+            <Entry Text="{Binding title}"/>
+
+            <Label Text="Autor" FontSize="Small"/>
+            <Entry Text="{Binding author}"/>
+
+            <Label Text="Ano de Publicação" FontSize="Small"/>
+            <Entry Text="{Binding yearOfPublication}" MaxLength="4" Keyboard="Numeric"/>
+
+            <Label Text="Descricao" FontSize="Small"/>
+            <Entry Text="{Binding description}"/>
+
+            <Label Text="Leitura realizada" FontSize="Small"/>
+            <StackLayout Orientation="Horizontal">
+                <Switch OnColor="#FF7F50"  IsToggled="{Binding read}" />
+            </StackLayout>
+            
+
+            <Button Text="Salvar" Margin="0,20,0,0" FontSize="24" TextColor="White" BackgroundColor="#FF7F50" WidthRequest="70" Clicked="OnSaveBook" x:Name="btnSave"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+

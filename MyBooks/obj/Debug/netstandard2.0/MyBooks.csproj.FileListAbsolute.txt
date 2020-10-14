@@ -1,0 +1,15 @@
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/Views/BookCreated.xaml.g.cs
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/MyBooks.AssemblyInfoInputs.cache
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/MyBooks.AssemblyInfo.cs
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/MyBooks.csproj.CoreCompileInputs.cache
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/MyBooks.csprojAssemblyReference.cache
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/bin/Debug/netstandard2.0/MyBooks.deps.json
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/bin/Debug/netstandard2.0/MyBooks.dll
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/bin/Debug/netstandard2.0/ref/MyBooks.dll
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/bin/Debug/netstandard2.0/MyBooks.pdb
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/MyBooks.dll
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/ref/MyBooks.dll
+/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/Debug/netstandard2.0/MyBooks.pdb

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyBooks.MainPage">
+    <StackLayout>
+        <Frame BackgroundColor="#FF7F50" Padding="24" CornerRadius="0">
+            <Label Text="My Books" TextColor="White" HorizontalTextAlignment="Center" BackgroundColor="#FF7F50" FontSize="36" />
+        </Frame>
+        <StackLayout>
+
+          <ListView x:Name="listBooks"
+                      Margin="20" ItemSelected="OnItemSelected"
+                      SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+
+                         <ViewCell>
+                            <StackLayout BackgroundColor="#F5F5F5" Padding="10" Margin="0,10,0,0" Orientation="Horizontal">
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="{Binding title}" FontAttributes="Bold" FontSize="24" HorizontalOptions="Start"/>
+                                    <Label Text="{Binding author}" FontSize="20" HorizontalOptions="Start"/>
+                                    <Label Text="{Binding yearOfPublication}" FontSize="20" HorizontalOptions="Start"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="EndAndExpand">
+                                     <Switch OnColor="#FF7F50"  IsToggled="{Binding read}" Toggled="Toggled" Margin="0" HorizontalOptions="End" />
+                                </StackLayout>
+
+
+                            </StackLayout>
+                        </ViewCell>
+
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Text="Adicionar" Padding="20,20,20,20" TextColor="White" BackgroundColor="#FF7F50"
+                    FontSize="24" Clicked="onClicked" x:Name="btnAdd"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

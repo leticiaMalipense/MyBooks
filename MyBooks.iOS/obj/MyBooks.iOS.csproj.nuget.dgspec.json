@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks.iOS/MyBooks.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks.iOS/MyBooks.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks.iOS/MyBooks.iOS.csproj",
+        "projectName": "MyBooks.iOS",
+        "projectPath": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks.iOS/MyBooks.iOS.csproj",
+        "packagesPath": "/Users/leticiamalipense/.nuget/packages/",
+        "outputPath": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/leticiamalipense/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/MyBooks.csproj": {
+                "projectPath": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/MyBooks.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.1141, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/MyBooks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/MyBooks.csproj",
+        "projectName": "MyBooks",
+        "projectPath": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/MyBooks.csproj",
+        "packagesPath": "/Users/leticiamalipense/.nuget/packages/",
+        "outputPath": "/Users/leticiamalipense/Desktop/pos/MyBooks/MyBooks/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leticiamalipense/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.1141, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
