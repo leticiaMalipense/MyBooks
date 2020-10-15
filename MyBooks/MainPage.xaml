@@ -20,9 +20,9 @@
                                     <Label Text="{Binding yearOfPublication}" FontSize="20" HorizontalOptions="Start"/>
                                 </StackLayout>
                                 <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="EndAndExpand">
-                                     <Switch OnColor="#FF7F50"  IsToggled="{Binding read}" Margin="0" HorizontalOptions="End">
-                                        <Switch.Behaviors Toggled="Toggled"/>
-                                    </Switch>
+                                   <CheckBox Color="#FF7F50"
+                                             IsChecked="{Binding read}" BindingContext="{Binding .}" 
+                                             CheckedChanged="CheckedChanged"/>
                                 </StackLayout>
 
 

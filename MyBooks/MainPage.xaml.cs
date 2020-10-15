@@ -50,10 +50,15 @@ namespace MyBooks
         {
         }
 
-        void Toggled(System.Object sender, Xamarin.Forms.ToggledEventArgs args)
+        void CheckedChanged(System.Object sender, Xamarin.Forms.CheckedChangedEventArgs args)
         {
-            Console.WriteLine(sender);
-            Console.WriteLine(args);
+            var checkbox = (CheckBox) sender;
+            var ob = checkbox.BindingContext as Book;
+
+            if (ob != null)
+            {
+                App.Connection.insert(ob);
+            }
         }
     }
 }
